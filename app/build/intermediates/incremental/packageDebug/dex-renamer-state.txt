@@ -1,0 +1,7 @@
+#Thu Jun 01 10:32:04 KST 2017
+base.0=C\:\\Users\\608\\Desktop\\minjoo\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_27903f2f8bd554ba255e5a1ed4947e4aa89f2fe3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\608\\Desktop\\minjoo\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_52268b7520b215c7d6c21eebcecd759cfc7d663b\\classes.dex
+base.1=C\:\\Users\\608\\Desktop\\minjoo\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_52268b7520b215c7d6c21eebcecd759cfc7d663b
+file.0=C\:\\Users\\608\\Desktop\\minjoo\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_27903f2f8bd554ba255e5a1ed4947e4aa89f2fe3\\classes.dex

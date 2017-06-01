@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" 
+    >
+
+    <kr.androidteam.alarm.dragAndDrap
+        android:id="@+id/drag"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+       />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/mon"
+                    style="?android:attr/checkboxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="월" />
+
+                <CheckBox
+                    android:id="@+id/tue"
+                    style="?android:attr/checkboxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="화" />
+
+                <CheckBox
+                    android:id="@+id/wed"
+                    style="?android:attr/checkboxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="수" />
+
+                <CheckBox
+                    android:id="@+id/thu"
+                    style="?android:attr/checkboxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="목" />
+
+                <CheckBox
+                    android:id="@+id/fri"
+                    style="?android:attr/checkboxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="금" />
+
+                <CheckBox
+                    android:id="@+id/sat"
+                    style="?android:attr/checkboxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="토" />
+
+                <CheckBox
+                    android:id="@+id/sun"
+                    style="?android:attr/checkboxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="일" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="행복한 아침~~ ^___^"
+                android:textSize="30sp" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RadioButton
+                    android:id="@+id/word"
+                    android:layout_width="312dp"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/selectword"
+                    android:text="                       단어 따라하기" />
+
+
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/insert"
+                    android:layout_width="97dp"
+                    android:layout_height="57dp"
+                    android:background="@drawable/add" />
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="97dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/cancel" />
+
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="104dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/delete" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         " />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

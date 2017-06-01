@@ -1,0 +1,4 @@
+#Thu Jun 01 10:32:02 KST 2017
+base.0=C\:\\Users\\608\\Desktop\\minjoo\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_5223e7b1040380eccfb2c10f57615d889144bd1b
+renamed.0=classes.dex
+file.0=C\:\\Users\\608\\Desktop\\minjoo\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_5223e7b1040380eccfb2c10f57615d889144bd1b\\classes.dex
